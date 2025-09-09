@@ -1,0 +1,28 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Assignment Submission",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init": "node ./database/init"
+  },
+  "author": "Abhishek Singh Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-session": "^1.18.2",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.4",
+    "npm": "^11.5.2"
+  }
+}
