@@ -42,7 +42,7 @@ Before running this project, make sure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Abhisheksinghchauhan192/AuthenticationProject.git
 cd Assignment
 ```
 
